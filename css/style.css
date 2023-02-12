@@ -22,6 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
     max-width: 1440px;
 }
@@ -58,6 +59,16 @@ h3{
 p{
     line-height: 20px;
     color: var(--grayish-blue);
+}
+
+footer{
+    margin-top: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-weight: 600;
 }
 
 @media screen and(max-width: 800px){
