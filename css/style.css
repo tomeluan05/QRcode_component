@@ -11,10 +11,13 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 15px;
+}
+
 body{
     background-color: var(--white);
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
 }
 
 .container{
@@ -23,7 +26,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     max-width: 1440px;
 }
 
@@ -44,19 +47,19 @@ body{
     border-radius: 15px;
 }
 
-.texto{
+.text{
     padding: 0 10px;
 }
 
-h3{
-    font-size: 20px;
+.title{
+    font-size: 1.4rem;
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 25px;
     font-weight: 700;
 }
 
-p{
+.paragraph{
     line-height: 20px;
     color: var(--grayish-blue);
 }
